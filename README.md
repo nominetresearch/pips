@@ -3,6 +3,8 @@
 
 We want to help people with cognitive or sensory impairment who have difficulty organising their daily routines.  We want to offer them greater independence, make their lives more manageable, and ease the burden on care providers.
 
+You can read more about the project in [this blog post](http://www.nominet.uk/researchblog/how-to-build-your-own-smart-iot-buttons/).
+
 ----------------------
 
 A Pip is a round button the size of jam jar lid that lights up and beeps.  They are placed around the home in order to guide users through the sequence of tasks that make up their daily routine.  A typical routine might be: Wake up, take a shower, get dressed, feed the cat, have a cup of tea.  Each step would have an accompanying Pip placed nearby.
