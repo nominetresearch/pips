@@ -1,0 +1,88 @@
+{
+  "user": "david",
+  "userId": "1234",
+  "routines": [
+    {
+      "routine_id": "1",
+      "routine_name": "Sunday Tea",
+      "activation_hour": 11,
+      "activation_minute": 1,
+      "repeat_schedule": [2],
+      "steps": [
+        {
+          "step_id": 0,
+          "pip_id": "4713ad25849446089201394b7bb8a623",
+          "delay": 0,
+          "priority": 1000,
+          "beep_preset": 1,
+          "alert": {
+            "timeout": 20,
+            "mobile_number": "07739960888",
+            "message": "Don't forget your afternoon cup of tea!"
+          }
+        },
+        {
+          "step_id": 1,
+          "pip_id": "e942423226034616891a9eb67144a671",
+          "delay": 0,
+          "priority": 900,
+          "beep_preset": 1
+        },
+        {
+          "step_id": 2,
+          "pip_id": "69606114583845a29af6088a3a61f0c1",
+          "delay": 0,
+          "priority": 800,
+          "beep_preset": 1
+        }
+      ]
+    },
+    {
+      "routine_id": "2",
+      "routine_name": "Morning - Weekdays",
+      "activation_hour": 8,
+      "activation_minute": 0,
+      "repeat_schedule": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "steps": [
+        {
+          "step_id": 0,
+          "pip_id": 0,
+          "delay": 0,
+          "priority": 1000,
+          "beep_preset": 1,
+          "message": "Step 1"
+        },
+        {
+          "step_id": 1,
+          "pip_id": 1,
+          "delay": 0,
+          "priority": 900,
+          "beep_preset": 1,
+          "message": "Step 2"
+        },
+        {
+          "step_id": 2,
+          "pip_id": 2,
+          "delay": 30,
+          "priority": 800,
+          "beep_preset": 1,
+          "message": "Step 3"
+        },
+        {
+          "step_id": 3,
+          "pip_id": 3,
+          "delay": 0,
+          "priority": 750,
+          "beep_preset": 1,
+          "message": "Step 4"
+        }
+      ]
+    }
+  ]
+}

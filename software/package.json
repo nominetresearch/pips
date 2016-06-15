@@ -1,0 +1,50 @@
+{
+  "name": "Pips_Gateway",
+  "version": "1.0.0",
+  "description": "Nominet Pips Gateway",
+  "author": "Nominet UK",
+  "contributors": 
+    [{
+    "name": "David Simpson",
+    "email": "david.simpson@nominet.uk"
+   },
+   {
+    "name": "Edoardo Pignotti",
+    "email": "edoardo.pignotti@nominet.uk"
+    },{
+      "name": "Anthony Kirby",
+      "email": "anthony.kirby@nominet.uk"
+    }],
+  "scripts": {
+    "test": "",
+    "start": "node main.js"
+  },
+  "main": "main.js",
+  "repository": {
+  "type": "",
+  "url": ""
+},
+  "bugs": {
+  "url": ""
+},
+  "keywords": [
+  "IoT",
+  "bridge",
+  "nominet"
+],
+  "dependencies": {
+    "mqtt": "*",
+    "beepbeep": "*",
+    "node-schedule": "*",
+    "noble": "*",
+    "ble-bean": "*",
+    "promise": "*"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {
+  "registry": ""
+},
+  "subdomain": "",
+  "license": ""
+}
