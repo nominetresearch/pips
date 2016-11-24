@@ -109,7 +109,7 @@ var discover = function (peripheral) {
         console.log("(scan)found:" + peripheral.advertisement.localName + " - UUID: " + peripheral.uuid);
 
         var topic = 'activate_' + peripheral.uuid;
-        var client = mqtt.createClient(1883, 'localhost');
+        var client = mqtt.connect('localhost:1183');
 
         client.subscribe(topic);
 
